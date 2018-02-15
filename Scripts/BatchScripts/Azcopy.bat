@@ -1,0 +1,1 @@
+AzCopy /Source:https://devops3290.blob.core.windows.net/test1 /Dest:C:\Users\devopsuser\Documents\sanjay\AZCOPY /SourceKey:$AccessKey /S

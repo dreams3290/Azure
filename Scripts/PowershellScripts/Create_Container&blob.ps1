@@ -6,7 +6,7 @@ $storageKey= Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroup -Sto
 $context= New-AzureStorageContext -StorageAccountName $storageAccount -StorageAccountKey $storageKey.Value[0]
 #New-AzureStorageContainer -Context $context -Name "testpowershell" -Permission Off
 
-#upoad a blob
+#upload a blob
 
 $containerName="testpowershell"
 $blobName="testpowershellblob.txt"
